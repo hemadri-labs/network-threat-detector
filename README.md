@@ -40,6 +40,12 @@ The app processes the input, performs categorical encoding, and uses a pre-train
 
 4. Open your browser and go to `http://127.0.0.1:5000/`.
 
+## 📁 Project Structure
+
+── UNSW_NB15_training-set.csv  ← must be downloaded
+
+── UNSW_NB15_testing-set.csv   ← must be downloaded
+
 ## ✅ Example CSV Format
 
 The uploaded CSV should match the training features. 
@@ -48,7 +54,8 @@ Testing Set: UNSW_NB15_testing-set.csv
 
 ## Acknowledgments
 This project was developed as a learning exercise in network intrusion detection using machine learning. 
-I used guidance from 🤖 ChatGPT to help me structure the Flask app, data preprocessing steps, and model integration, clarify concepts, debug issues
+I used guidance from 🤖 ChatGPT to help me structure the Flask app, data preprocessing steps, model integration, clarify concepts, and debug issues.
+
 Learnings:
 - End-to-end ML model deployment
 - Handling categorical encodings
